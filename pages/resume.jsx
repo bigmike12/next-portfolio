@@ -1,6 +1,6 @@
-import React from 'react';
-import Head from 'next/head';
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import React from "react";
+import Head from "next/head";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const resume = () => {
   return (
@@ -8,43 +8,43 @@ const resume = () => {
       <Head>
         <title>Clint | Resume</title>
         <meta
-          name='description'
-          content='I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences.'
+          name="description"
+          content="I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences."
         />
-        <link rel='icon' href='/fav.png' />
+        <link rel="icon" href="/fav.png" />
       </Head>
 
-      <div className='max-w-[940px] mx-auto p-2 pt-[120px]'>
-        <h2 className='text-center'>Resume</h2>
-        <div className='bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center'>
-          <h2 className='text-center'>Clint Briley</h2>
-          <div className='flex'>
+      <div className="max-w-[940px] mx-auto p-2 pt-[120px]">
+        <h2 className="text-center">Resume</h2>
+        <div className="bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center">
+          <h2 className="text-center">Michael Jonathan</h2>
+          <div className="flex">
             <a
-              href='https://www.linkedin.com/in/clint-briley-50056920a/'
-              target='_blank'
-              rel='noreferrer'
+              href="https://www.linkedin.com/in/mikejrn/"
+              target="_blank"
+              rel="noreferrer"
             >
-              <FaLinkedinIn size={20} style={{ marginRight: '1rem' }} />
+              <FaLinkedinIn size={20} style={{ marginRight: "1rem" }} />
             </a>
             <a
-              href='https://github.com/fireclint'
-              target='_blank'
-              rel='noreferrer'
+              href="https://github.com/bigmike12"
+              target="_blank"
+              rel="noreferrer"
             >
-              <FaGithub size={20} style={{ marginRight: '1rem' }} />
+              <FaGithub size={20} style={{ marginRight: "1rem" }} />
             </a>
           </div>
         </div>
-        <div className='text-center py-4 text-xl font-bold uppercase tracking-wider'>
-          <div className='hidden sm:block'>
+        <div className="text-center py-4 text-xl font-bold uppercase tracking-wider">
+          <div className="hidden sm:block">
             <p>
-              Proven Leadership <span className='px-1'>|</span> Web Development{' '}
-              <span className='px-1'>|</span> Complex Problem Solving
+              Proven Leadership <span className="px-1">|</span> Web Development{" "}
+              <span className="px-1">|</span> Complex Problem Solving
             </p>
           </div>
-          <div className='block sm:hidden'>
+          <div className="block sm:hidden">
             <p>Proven Leadership</p>
-            <p className='py-2'>Web Development</p>
+            <p className="py-2">Web Development</p>
             <p>Complex Problem Solving</p>
           </div>
         </div>
@@ -61,113 +61,80 @@ const resume = () => {
         </p>
 
         {/* Skills */}
-        <div className='text-center py-4'>
-          <h5 className='text-center underline text-[18px] py-2'>Skills</h5>
-          <p className='py-2'>
-            <span className='font-bold'>Technical Skills</span>
-            <span className='px-2'>|</span>Front-End Web Developer
-            <span className='px-2'>|</span> HTML <span className='px-2'>|</span>
-            CSS <span className='px-2'>|</span>React
-            <span className='px-2'>|</span>Tailwind
-            <span className='px-2'>|</span> Firebase
+        <div className="text-center py-4">
+          <h5 className="text-center underline text-[18px] py-2">Skills</h5>
+          <p className="py-2">
+            <span className="font-bold">Technical Skills</span>
+            <span className="px-2">|</span>JAVASCRIPT
+            <span className="px-2">|</span> HTML <span className="px-2">|</span>
+            CSS <span className="px-2">|</span>React
+            <span className="px-2">|</span>Next
+            <span className="px-2">|</span>Tailwind
+            <span className="px-2">|</span> GRAPHQL
+            <span className="px-2">|</span> SCSS
+            <span className="px-2">|</span> TYPESCRIPT
           </p>
-          <p className='py-2'>
-            <span className='font-bold'>Amazon Web Services</span>
-            <span className='px-2'>|</span>Amazon Web Services Cloud
-            Practitioner
+          <p className="py-2">
+            <span className="font-bold">Sources Control</span>
+            <span className="px-2">|</span>GITHUB
+            <span className="px-2">|</span>GITLAB
           </p>
         </div>
 
-        <h5 className='text-center underline text-[18px] py-4'>
+        <h5 className="text-center underline text-[18px] py-4">
           Professional Experience
         </h5>
         {/* Experience */}
-        <div className='py-6'>
-          <p className='italic'>
-            <span className='font-bold italic'>
-              BIGCOMMERCE, SHOPIFY, WOOCOMMERCE
-            </span>
-            <span className='px-2'>|</span>Dallas, TX
+        <div className="py-6">
+          <p className="italic">
+            <span className="font-bold italic">KONGA ONLINE</span>
+            <span className="px-2">|</span>Lagos, Nigeria
           </p>
-          <p className='py-1 italic'>Freelance Work (2013 - Current)</p>
-          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+          <p className="py-1 italic">November (2021 - Current)</p>
+          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
-              Ensured comprehensive mobile responsive UI layouts with
-              understanding of HTML, CSS, and JavaScript.
+              Manage the frontend architecture for one of the country’s most
+              popular eCommerce platform with an average daily visit of over
+              5000 using NextJs, GraphQL, and SASS.
             </li>
             <li>
-              Troubleshoot issues and concerns, configure operation and analytic
-              plugins, and design changes as needed.
+              Executed the building, testing and maintaining of new features on
+              Konga.com which improved sales by 30% and site stability.
             </li>
             <li>
-              Worked directly with a diverse client base to understand and
-              implement multiple technologies and programs.
+              Managed a process re-engineering project to improve and
+              consolidate end-to-end service processes; restructured
+              communication flow among 4 departments and cut down paperwork by
+              75% using ReactJs, Typescript, SASS, and Bootstrap.
             </li>
             <li>
-              Platform migration managing DNS servers as well as MX records and
-              ensuring a smooth migration process.
+              Managed and responsible for the writing of test case for new
+              components and features for the Konga.com web app using Jest,
+              React-testing-library and Enzyme.
             </li>
           </ul>
         </div>
         {/* Experience */}
-        <div className='py-6'>
-          <p className='italic'>
-            <span className='font-bold'>Preston EMS</span>
-            <span className='px-2'>|</span>Grayson County, TX
+        <div className="py-6">
+          <p className="italic">
+            <span className="font-bold italic">KONGA ONLINE</span>
+            <span className="px-2">|</span>Lagos, Nigeria
           </p>
-          <p className='py-1 italic'>Paramedic (2019 - Current)</p>
-          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+          <p className="py-1 italic">August 2020 - October 2021</p>
+          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
-              Lead paramedic on an ALS 911 ambulance covering rural Grayson
-              County.
+              Managed the Graphics, UI Design and also Frontend Development of
+              the marketing Department internal and external clients using web
+              technologies like HTML, CSS and JavaScript.
             </li>
             <li>
-              Work surrounding departments organizing treatment protocols and
-              facilitate hands on training operations.
+              Executed the designing and development and maintainance of Landing
+              Pages for the business and its partners that generated an extra
+              30% revenue for the company.
             </li>
             <li>
-              Manage high stress 911 situations such as medical emergencies,
-              traumatic emergencies, and water accidents
-            </li>
-            <li>
-              Public outreach and relations for the municipality from healthcare
-              awareness to training methods.
-            </li>
-          </ul>
-        </div>
-        {/* Experience */}
-        <div className='py-6'>
-          <p className='italic'>
-            <span className='font-bold'>CITY OF SHERMAN, TX</span>
-            <span className='px-2'>|</span>Sherman, TX
-          </p>
-          <p className='py-1 italic'>Paramedic / Firefighter (2010 – 2019)</p>
-          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
-            <li>
-              Ensured proper implementation of firefighting techniques and
-              practices including controlling and extinguishing fires, operating
-              hose lines, and fire ground operations, ventilation, and search
-              and rescue.
-            </li>
-            <li>
-              Oversaw comprehensive understanding, operation, and maintenance of
-              fire engines, ladder trucks, technical rescue apparatus, and
-              response trailers.
-            </li>
-            <li>
-              Performed ALS techniques as needed within emergency situations
-              including the use of an esophageal or dual lumen airway device and
-              oral intubation using laryngoscopy.
-            </li>
-            <li>
-              Collaborated with a talented and high performing team of
-              firefighters in high pressure and stressful situations as needed.
-            </li>
-            <li>
-              Utilized proven and demonstrated knowledge of multiple
-              certifications including Pediatric Advanced Life Support,
-              Prehospital Trauma Life Support, and Advanced Cardiac Life
-              Support, among others.
+              Managed and executed the graphics design for social media that saw
+              increase in engagement and following by almost 50%.
             </li>
           </ul>
         </div>
