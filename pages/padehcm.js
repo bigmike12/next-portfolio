@@ -1,10 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import GitFinder from '../public/assets/projects/GitFinder.png'
+import PadeHCM from "../public/assets/projects/padehcm.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
-const gitfinder = () => {
+const padeHCM = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[50vh] relative">
@@ -13,12 +13,12 @@ const gitfinder = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={GitFinder}
+          src={PadeHCM}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Git Finder</h2>
-          <h3>React JS / Tailwind / Firebase</h3>
+          <h2 className="py-2">PadeHCM</h2>
+          <h3>React JS / Typescript / Tailwind / AntDesign</h3>
         </div>
       </div>
 
@@ -27,42 +27,42 @@ const gitfinder = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            I built this app to demonstrate knowledge working in Vanilla
-            Javascript and accessing API endpoints. This app was built using
-            Javascript and is hosted on Netlify. Users are able to search for
-            github accounts using usernames, displaying latest repos, stars,
-            watchers and forks. This application was built using the GitHub API.
+            This is an enterprise was built using ReactJS it help companys
+            manage their entire global employee life-cycle from hire to exit
+            without headache with our all-in-one, easy-to-use, it is a
+            customizable cloud-based people management software.
+            I led the frontend team of 3 other engineers.
           </p>
-          <a
-            href="https://github.com/bigmike12/GitHub-Finder"
+          {/* <a
+            href="https://github.com/bigmike12/bookin"
             target="_blank"
             rel="noreferrer"
           >
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
-          </a>
+          </a> */}
           <a
-            href="https://find-git.netlify.app/"
+            href="https://www.padehcm.com/"
             target="_blank"
             rel="noreferrer"
           >
-            <button className="px-8 py-2 mt-4">Demo</button>
+            <button className="px-8 py-2 mt-4">Live</button>
           </a>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4">
           <div className="p-2">
             <p className="text-center font-bold pb-2">Technologies</p>
-            <div className="grid grid-cols-3 md:grid-cols-1 ">
+            <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> HTML
+                <RiRadioButtonFill className="pr-1" /> React
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> CSS
+                <RiRadioButtonFill className="pr-1" /> Typescript
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Javascript
+                <RiRadioButtonFill className="pr-1" /> Tailwind
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Github API
+                <RiRadioButtonFill className="pr-1" /> AntDesign
               </p>
             </div>
           </div>
@@ -75,4 +75,4 @@ const gitfinder = () => {
   );
 };
 
-export default gitfinder;
+export default padeHCM;

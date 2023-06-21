@@ -5,8 +5,8 @@ import propertyImg from "../public/assets/projects/property.jpg";
 import cryptoImg from "../public/assets/projects/crypto.jpg";
 import Bookin from "../public/assets/projects/Bookin.png";
 import GitFinder from "../public/assets/projects/GitFinder.png";
-import OpenSource from "../public/assets/projects/OpenSource.png";
-import twitchImg from "../public/assets/projects/twitch.jpg";
+import Hades from "../public/assets/projects/hades.png";
+import PadeHCM from "../public/assets/projects/padehcm.png";
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
@@ -19,6 +19,18 @@ const Projects = () => {
         <h2 className="py-4">What I&apos;ve Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
+            title="PadeHCM"
+            backgroundImg={PadeHCM}
+            projectUrl="/padehcm"
+            tech="React JS"
+          />
+          <ProjectItem
+            title='Hades'
+            backgroundImg={Hades}
+            projectUrl='/hades'
+            tech='Next JS'
+          />
+          <ProjectItem
             title="Bookin App"
             backgroundImg={Bookin}
             projectUrl="/bookin"
@@ -30,19 +42,6 @@ const Projects = () => {
             projectUrl="/gitfinder"
             tech="Javascript"
           />
-          {/* <ProjectItem
-            title="Nueno Project (Open Source)"
-            backgroundImg={OpenSource}
-            projectUrl="/nueno"
-            tech="React JS"
-          /> */}
-          {/* <ProjectItem
-            title='Twitch UI'
-            backgroundImg={twitchImg}
-            projectUrl='/twitch'
-            tech='Next JS'
-
-          /> */}
         </div>
       </div>
     </div>
